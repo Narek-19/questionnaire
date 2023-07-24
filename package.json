@@ -1,7 +1,7 @@
 {
+  "homepage":"http://Narek-19.github.io/questionnaire",
   "name": "lesson-2-narek-chakhoyan",
   "version": "0.1.0",
-  "homepage":"http://Narek-19.github.io/questionnaire",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
@@ -20,7 +20,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
