@@ -1,0 +1,13 @@
+.containerNotFound{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    .warningContent{
+        text-align: center;
+    }
+    .warningPageIcon{
+        img{width: 200px;}
+    }
+}

@@ -1,0 +1,25 @@
+@import '../../../styles/scss_variables.scss';
+
+.content {
+    height: 500px;
+    background-color: $content_gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logoLoader {
+    width: 100px;
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

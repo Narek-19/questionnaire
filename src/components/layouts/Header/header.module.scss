@@ -1,0 +1,73 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    .navTitleContainer {
+        width: 800px;
+        display: flex;
+        justify-content: space-between;
+
+        .navTitles {
+            display: flex;
+            align-items: center;
+
+            a {
+                color: black;
+                text-decoration: none;
+            }
+
+            .navLink {
+                background-color: antiquewhite;
+                border-radius: 20px;
+                padding: 5px;
+                margin: 5px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: rgb(216, 226, 187);
+                }
+            }
+
+            .activeLink {
+                color: white;
+                background-color: rgb(137, 194, 130);
+            }
+        }
+    }
+
+    .logoContainer {
+        cursor: pointer;
+        margin: 5px;
+        padding: 2px;
+        display: flex;
+        align-items: center;
+
+        .logo {
+            margin: 2px;
+            width: 50px;
+        }
+
+        .logoTitle {
+            font-size: 12px;
+        }
+    }
+
+    .resetButtonContainer {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+
+        .resetBtn {
+            cursor: pointer;
+            background-color: green;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .switcher {
+            margin: 5px
+        }
+    }
+
+}
