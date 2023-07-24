@@ -9,7 +9,7 @@ export const MainContent = () => {
         <h1 className={style.mainHeader}>Welcome to Epic Questionnaire</h1>
         <div className={style.buttonContainer}>
           <div className={style.button}>
-            <NavLink to="/question1">Start</NavLink>
+            <NavLink to="/questionnaire/question1">Start</NavLink>
           </div>
         </div>
       </div>
